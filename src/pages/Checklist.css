@@ -1,0 +1,138 @@
+.checklist-page {
+  padding-bottom: 40px;
+}
+
+/* Progress Card */
+.progress-card {
+  margin-bottom: 24px;
+}
+
+.progress-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.progress-info {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.progress-info h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.progress-info p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Checklist Items */
+.checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px !important;
+  cursor: pointer;
+  user-select: none;
+  transition: all var(--transition-fast);
+}
+
+.checklist-item:hover {
+  transform: translateX(4px) translateY(-2px) !important;
+}
+
+.item-checked {
+  background: rgba(34, 197, 94, 0.04) !important;
+  border-color: rgba(34, 197, 94, 0.15) !important;
+}
+
+.item-critical {
+  border-left: 3px solid rgba(234, 179, 8, 0.4);
+}
+
+.check-icon {
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.check-icon .checked {
+  color: #22C55E;
+}
+
+.check-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.check-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+  transition: all var(--transition-fast);
+}
+
+.text-checked {
+  text-decoration: line-through;
+  color: var(--text-muted) !important;
+}
+
+.check-category {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.check-item-icon {
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
+.critical-icon {
+  color: #EAB308;
+  flex-shrink: 0;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Celebration */
+.celebration {
+  text-align: center;
+  padding: 40px !important;
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.08), rgba(16, 185, 129, 0.04)) !important;
+  border-color: rgba(34, 197, 94, 0.2) !important;
+}
+
+.celebration-icon {
+  color: #22C55E;
+  margin-bottom: 16px;
+}
+
+.celebration h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #22C55E;
+}
+
+.celebration p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}

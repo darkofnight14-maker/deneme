@@ -1,0 +1,214 @@
+.brand-settings {
+  padding-bottom: 40px;
+}
+
+/* Brand Identity Card */
+.brand-identity-card {
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, rgba(196, 163, 90, 0.06), rgba(91, 125, 177, 0.04)) !important;
+  border-color: rgba(196, 163, 90, 0.15) !important;
+}
+
+.brand-id-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand-id-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent-ochre), #D4A843);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a2e;
+  box-shadow: 0 4px 20px var(--accent-ochre-glow);
+}
+
+.brand-id-header h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.brand-vibe {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* Settings Grid */
+.settings-grid {
+  margin-bottom: 24px;
+}
+
+.setting-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  color: var(--accent-blue);
+}
+
+.setting-header h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.setting-value {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Color Palette */
+.color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.color-swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.color-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.color-hex {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: 'Courier New', monospace;
+}
+
+/* Typography Preview */
+.typo-preview {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.typo-outfit {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.typo-inter {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Format Preview */
+.format-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.format-box {
+  width: 50px;
+  height: 90px;
+  border-radius: 8px;
+  border: 2px solid var(--accent-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+}
+
+.format-preview p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+/* Posting Hours */
+.posting-hours {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hour-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: rgba(91, 125, 177, 0.1);
+  color: var(--accent-blue);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 1px solid rgba(91, 125, 177, 0.2);
+}
+
+/* Overlay Settings */
+.overlay-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.overlay-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.overlay-item strong {
+  margin-left: auto;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Hashtags Full */
+.hashtags-full {
+  margin-top: 0;
+}
+
+.hashtag-group {
+  margin-bottom: 4px;
+}
+
+.hashtag-group h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.hashtag-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
